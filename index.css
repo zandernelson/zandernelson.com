@@ -1,0 +1,54 @@
+* {
+    font-family: 'Courier New', monospace;
+    color: #FFFFFF;
+}
+
+body {
+    background-color: #181818;
+}
+
+.container {
+
+}
+
+.icon {
+    font-size: xx-large;
+    margin-bottom: -10px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 20px 2vw 20px 2vw;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container {
+        padding: 20px 5vw 20px 5vw;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container {
+        padding: 20px 10vw 20px 10vw;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container {
+        padding: 20px 15vw 20px 15vw;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .container {
+        padding: 20px 25vw 20px 25vw;
+    }
+}
+
+
